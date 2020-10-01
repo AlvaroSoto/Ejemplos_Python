@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>60d25e23-30e5-433e-b175-4bf731128268</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ejercicios\romanos.py</StartupFile>
+    <StartupFile>ejercicios\Math_01.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ejercicios\romanos.py">
+    <Compile Include="ejercicios\Math_01.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
