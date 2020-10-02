@@ -2,14 +2,14 @@
 # Alvaro Soto. 2020
 # Cod. Math_01.py
 
-class roman(object):
+class roman():
     pass
     def __init__(args):
         pass
     def function(args):
         pass
 
-class decimal(valor):
+class decimal(data):
     pass
     def __init__(args):
         pass
