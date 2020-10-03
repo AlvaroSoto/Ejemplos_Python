@@ -2,19 +2,19 @@
 # Alvaro Soto. 2020
 # Cod. Math_01.py
 
-class roman(object):
+class roman():
     pass
     def __init__(args):
         pass
     def function(args):
         pass
 
-class decimal():
-    def __init__(self, data):
-        self.count = len(data)
-        #pass
-    def Operator(self):
-        return self.count + 5
+class decimal(valor):
+    pass
+    def __init__(args):
+        pass
+    def function(args):
+        pass
 
 # Waiting for data
 while True:
