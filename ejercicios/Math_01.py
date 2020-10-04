@@ -1,6 +1,8 @@
 # Convert data
 # Alvaro Soto. 2020
 # Cod. Math_01.py
+# Min: 1 and I, Max: 3999 and MMMCMXCIX
+
 
 class roman(object):
     pass
