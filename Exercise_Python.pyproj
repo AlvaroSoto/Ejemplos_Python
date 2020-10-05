@@ -25,6 +25,9 @@
     <Compile Include="exercise\Math_01.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="exercise\Math_02.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="exercise\" />
