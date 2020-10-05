@@ -15,7 +15,7 @@ class decimal(roman):
     def __init__(self, data):
         #self.count = len(data)
         self.test = int(data)
-        self.list = ("I", "V")
+        self.list = ("I", "V", "X", "L", "C", "D", "M")
         self.a=[]
         #pass
     # Operator in index for roman number
@@ -28,6 +28,7 @@ class decimal(roman):
 # Waiting for data
 while True:
     data=input("Convert - decimal numerals to roman numerals / roman numerals to decimal numerals: \n")
-    call = decimal(data)
-    print(call._Operator())
+    if int(data) >= 1 and int(data) <= 3999 or data.isalpha() == True:#check comparison
+        call = decimal(data)
+        print(call._Operator())
     break
