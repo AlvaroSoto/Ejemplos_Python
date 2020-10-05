@@ -5,7 +5,7 @@
     <ProjectGuid>60d25e23-30e5-433e-b175-4bf731128268</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>exercise\Math_01.py</StartupFile>
+    <StartupFile>OpenCV\Exercise_01.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,9 +28,13 @@
     <Compile Include="exercise\Math_02.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="OpenCV\Exercise_01.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="exercise\" />
+    <Folder Include="OpenCV\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
