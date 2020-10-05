@@ -11,18 +11,24 @@ class roman(object):
     def function(args):
         pass
 
-class decimal():
+class decimal(roman):
     def __init__(self, data):
-        self.count = len(data)
+        #self.count = len(data)
+        self.test = int(data)
         #pass
 
     # Operator in index for roman number
-    def Operator(self): # Select index for numbers
-        return self.count + 5, data[1:3]
+    def _Operator(self): # Select index for numbers
+        list = ["I", "V"]
+        outdata=[]
+        for x in range(int(self.test)): 
+            outdata.append(list[0])
+        Strend = "".join(outdata)
+        return Strend
 
 # Waiting for data
 while True:
     data=input("Convert - decimal numerals to roman numerals / roman numerals to decimal numerals: \n")
     call = decimal(data)
-    print(call.Operator())
+    print(call._Operator())
     break
