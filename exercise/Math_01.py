@@ -3,7 +3,6 @@
 # Cod. Math_01.py
 # Min: 1 and I, Max: 3999 and MMMCMXCIX
 
-
 class roman(object):
     pass
     def __init__(args):
@@ -12,18 +11,18 @@ class roman(object):
         pass
 
 class decimal(roman):
+
     def __init__(self, data):
         #self.count = len(data)
         self.test = int(data)
+        self.list = ("I", "V")
+        self.a=[]
         #pass
-
     # Operator in index for roman number
     def _Operator(self): # Select index for numbers
-        list = ["I", "V"]
-        outdata=[]
         for x in range(int(self.test)): 
-            outdata.append(list[0])
-        Strend = "".join(outdata)
+            self.a.append(self.list[0])
+        Strend = "".join(self.a)
         return Strend
 
 # Waiting for data
