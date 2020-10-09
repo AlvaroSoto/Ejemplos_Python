@@ -34,12 +34,4 @@ while True:
             print(call._Operator())
     except :
         pass
-
-    try:
-        if True:
-            call = decimal(data)
-            print(call._Operator())
-    except :
-        pass
-
     break
