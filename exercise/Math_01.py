@@ -28,7 +28,18 @@ class decimal(roman):
 # Waiting for data
 while True:
     data=input("Convert - decimal numerals to roman numerals / roman numerals to decimal numerals: \n")
-    if int(data) >= 1 and int(data) <= 3999 or data.isalpha() == True:#check comparison
-        call = decimal(data)
-        print(call._Operator())
+    try:
+        if int(data) >= 1 and int(data) <= 3999:
+            call = decimal(data)
+            print(call._Operator())
+    except :
+        pass
+
+    try:
+        if True:
+            call = decimal(data)
+            print(call._Operator())
+    except :
+        pass
+
     break
